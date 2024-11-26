@@ -1,0 +1,90 @@
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+@import "@mantine/tiptap/styles.css";
+
+@import  '../../node_modules/quill/dist/quill.snow.css';
+
+
+// recomment 
+/* 
+    texturevault
+    backgroundlab
+    textureking
+    pantterncooler
+    coloulovers
+    sublepatterns
+*/
+
+
+
+
+
+html,
+body {
+    margin: 0;
+    box-sizing: border-box;
+    height: 100%;
+}
+
+.home{
+    background-color: #fff;
+    min-height: 100%;
+}
+
+.post__image{
+    height: 160px;
+    width: 100%;
+    list-style-image: none;
+    z-index: 0;
+}
+
+
+.Post{
+    padding-left: 228px;
+    padding-top: 60px;
+    width: 950px;
+    padding-bottom: 60px;
+    display: inline-flex;
+}
+
+
+.post__title{
+    width: 950px;
+    padding-bottom: 40px;
+    padding-top: 34px;
+    min-height: 192px;
+}
+
+.post__info{
+    color: #7b7a7a;
+}
+
+.post__content{
+    border-right: solid 1px #cccccc;
+    margin-right: 200px;
+}
+
+.post__content img{
+    width: 100%;
+}
+
+.post__content--wrapper{
+    width: 722px;
+    font-size: 1.2rem;
+}
+
+.post__content--image img{
+    height: 500px;
+    width: 722px;
+    padding-bottom: 10px;
+}
+
+.post__ads img{
+    margin-top: 150px;
+    width: 300px;
+    margin-left: -170px;
+}
